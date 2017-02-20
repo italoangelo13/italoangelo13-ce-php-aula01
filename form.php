@@ -1,6 +1,6 @@
 <?php
-	$a = 10;
-	$b = 20;
+	$a = $_REQUEST['num1'];
+	$b = $_REQUEST['num2'];
 
 	$soma = $a + $b;
 	$sub = $a - $b;
@@ -28,7 +28,8 @@
 		<div class="row">
 			<h5 class="col-lg-12" style="text-align: center;">Considere que A seja igual a 10 e B seja igual a 20, eis os seguintes calculos:</h5>
 		</div>
-
+		
+		
 		<div class="row">
 			<table class="table" style="text-align: center;">
 			  <thead class="thead-striped">
@@ -61,7 +62,7 @@
 			  </tbody>
 			</table>
 		</div>
-
+		
 
 		<div class="row">
 			<h3>Calcular com novos valores</h3>
